@@ -1,0 +1,100 @@
+.form-div {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 50px;
+    margin-bottom: 70px;
+    padding: 10px 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.CourseLogo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.input {
+    width: 268px;
+    height: 36px;
+    padding: 9px 8px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.login-btn {
+    width: 268px;
+    padding: 7px 16px;
+    background-color: #1682a9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+.login-btn:disabled {
+    opacity: 0.7;
+}
+
+.or-divider {
+    width: 268px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 18px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.or-divider span {
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 18px;
+}
+
+.fb-login {
+    color: #0095f6;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 90px;
+}
+
+.sign-up {
+    background: #fff;
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.sign-up p {
+    font-size: 14px;
+    margin: 15px;
+}
+
+.sign-up-link {
+    color: #0095f6;
+    font-weight: 600;
+}
