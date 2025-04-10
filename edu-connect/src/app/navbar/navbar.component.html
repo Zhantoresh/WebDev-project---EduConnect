@@ -1,0 +1,18 @@
+<link href='navbar.component.css' rel='stylesheet'>
+<header class="navbar">
+    <div class="logo">
+      <img src="assets/LumicaLogo.jpeg" alt="Lumica Academy Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a routerLink="/" class="nav-link">Главная</a></li>
+        <li><a routerLink="/courses" class="nav-link">Курсы</a></li>
+        <li *ngIf="!userName"><a routerLink="/login" class="nav-link">Войти</a></li>
+        <li *ngIf="userName">
+          <span class="user-name">Добро пожаловать, {{ userName }}</span>
+          <button (click)="logout()" class="nav-link logout-btn">Выйти</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
